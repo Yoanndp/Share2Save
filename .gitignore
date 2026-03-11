@@ -1,0 +1,48 @@
+# Ignore Gradle and build outputs
+.gradle/
+/build/
+**/build/
+
+# Local configuration
+local.properties
+
+# Gradle wrapper
+gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated files
+/captures/
+/output.json
+.externalNativeBuild/
+.cxx/
+
+# Signing and keys
+*.jks
+*.keystore
+
+# APKs and generated binaries
+*.apk
+*.ap_
+*.aab
+
+# NDK
+obj/
+*.so
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Misc
+google-services.json
+.vscode/
+
+# Kotlin/Java
+*.class
