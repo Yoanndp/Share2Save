@@ -1,10 +1,18 @@
 Share2Save
 =========
 
-Share2Save is a small Android utility that receives shared content (images, videos, audio, or generic files) from other apps and saves it to the user's Pictures folder using MediaStore when possible. A short Toast notification confirms each successful save.
+Share2Save is a small vibe-coded Android utility that receives shared content (images, videos, audio, or generic files) from other apps and saves it to the user's Pictures folder using MediaStore when possible. A short Toast notification confirms each successful save.
 
-Status
-- Vibe coded — implemented quickly with a focus on practicality and minimal surface area.
+### Context
+I built Share2Save as a direct response to the March 2026 Pixel update (Android 16 QPR3), which frustratingly removed the "Save to Photos" shortcut from the Recent Apps screen. While Google kept the options to copy, edit or share, the removal of a direct save button turned a one-tap workflow into a multi-step chore involving manual file management. This app restores that lost efficiency; by acting as a share target that handles the MediaStore logic silently in the background, it allows you to "Share to Save" and instantly archive media without ever leaving your current context or surfacing a cumbersome UI
+
+### Usage
+Open "Recent apps" and hit the button overlaying the image you want to save
+![](assets/1.png)
+On the sharing menu, select the Share2Save app
+![](assets/2.png)
+The image has been saved on Pictures/Share2Save
+![](assets/3.png)
 
 Use case
 - Save files (photos, videos, or other shared content) from the Android share menu directly into a dedicated folder (Pictures/Share2Save). Useful for quickly archiving media or attachments without opening a full gallery or downloads manager.
